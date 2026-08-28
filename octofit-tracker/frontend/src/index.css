@@ -1,0 +1,20 @@
+:root {
+  --ink: #18302b;
+  --muted: #687875;
+  --paper: #f6f3ec;
+  --surface: #fffdf8;
+  --line: #d9ded5;
+  --coral: #e86b4d;
+  --teal: #1f766b;
+  --lime: #d8e96b;
+  font-family: 'Trebuchet MS', 'Gill Sans', sans-serif;
+  color: var(--ink);
+  background: var(--paper);
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+}
+
+* { box-sizing: border-box; }
+body { margin: 0; min-width: 320px; }
+a { color: inherit; }
