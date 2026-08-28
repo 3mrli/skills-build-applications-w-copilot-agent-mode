@@ -6,8 +6,8 @@ function displayValue(value) {
   return String(value)
 }
 
-export default function ResourceTable({ resource, title, description, columns }) {
-  const { data, loading, error } = useResource(resource)
+export default function ResourceTable({ resource, title, description, columns, endpoint }) {
+  const { data, loading, error } = useResource(resource, endpoint)
 
   return (
     <section className="resource-view">
